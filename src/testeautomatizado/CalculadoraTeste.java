@@ -25,6 +25,29 @@ public class CalculadoraTeste {
 		
 	}
 	
+	
+	public boolean testeMultiplicacao() {
+		int resultadoEsperado = 4;
+		
+		Calculadora calc = new Calculadora();
+	
+		int resultadoObtido = calc.multiplicacao(2, 2);
+		
+		return resultadoEsperado == resultadoObtido;
+		
+	}
+	public boolean testeDivisao() {
+		int resultadoEsperado = 1;
+		
+		Calculadora calc = new Calculadora();
+	
+		int resultadoObtido = calc.divisao(2, 2);
+		
+		return resultadoEsperado == resultadoObtido;
+		
+	}
+	
+	
 	// 
 
 }

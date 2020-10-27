@@ -26,5 +26,25 @@ public class QuadradoTeste {
 		}
 
 	}
+	
+	public boolean testeCalcularPerimetro() {
+		int resultadoEsperado = 8;
+		
+		Quadrado quadrado = new Quadrado(2);
+		
+		int resultadoObtido = quadrado.calcularPerimetro();
+		
+		return resultadoEsperado == resultadoObtido;
+	}
+	
+	public boolean testeCalcularArea() {
+		int resultadoEsperado = 4;
+		
+		Quadrado quadrado = new Quadrado(2);
+		
+		int resultadoObtido = quadrado.calcularArea();
+		
+		return resultadoEsperado == resultadoObtido;
+	}
 
 }
